@@ -1,0 +1,349 @@
+@font-face{
+ font-family:"Yesteryear-Regular";
+ src:url(../css/Yesteryear-Regular.ttf);
+}
+* {
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header{
+	min-width: 1200px;
+	min-height: 455px;
+	margin: 0 auto;
+	background: url(../img/Rectangle-18.png)100% 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	border:1px solid white;
+	position: relative;
+}
+header::after{
+	content:'';
+	background: url(../img/Tomatoes.png);
+	width: 343px;
+	height: 326px;
+	position: absolute;
+	right: 40px;
+	bottom:-220px;
+
+}
+nav{
+	width: 1150px;
+	height: 50px;
+	margin:40px auto;
+	position: relative;
+}
+.logo{
+	width: 108px;
+	height: 100%;
+	float: left;
+	margin-right:150px; 
+}
+.logo a{
+	content:"";
+	background: url("../img/Rectangle-2.png") no-repeat;
+    width: 108px;
+	height: 25px;
+    position: absolute;
+	left: -10px;
+	top: 10px;
+}
+.nav{
+	float: left;
+	margin:15px auto; 
+}
+.nav a{
+	text-transform: uppercase;
+	margin: 0px 40px 0 40px;
+	padding: 5px 5px;
+}
+.book-a-table{
+	float: right;
+	text-align: center;
+	margin-top: 13px;
+}
+.book-a-table a{
+	padding: 15px 20px 15px 35px;
+	text-transform: uppercase;
+	position: relative;
+	border:1px solid white;
+	border-radius: 3px;
+}
+.book-a-table a:before{
+	content:"";
+	background: url("../img/fa-clock-o.png") no-repeat;
+    width: 17px;
+	height: 17px;
+    position: absolute;
+	left: 8px;
+	top: 15px;
+}
+.main{
+	width: 850px;
+	margin: 230px auto;
+	position: relative;
+}
+.main h1{
+	font-size: 220px;
+	margin: 0 0 0 80px;
+	color:#fdb902;
+	font-family:"Yesteryear-Regular";
+	font-weight:200;
+}
+.main p{
+	font-size: 25px;
+	margin:-20px 0 320px 140px;
+	color: white;
+}
+.main::after{
+	content:"";
+	background: url("../img/Shape 1.png") no-repeat;
+    width: 129px;
+	height: 104px;
+    position: absolute;
+	right:340px;
+	top: -75px;
+}
+.meal{
+	width: 1140px;
+	margin: 335px auto;
+}
+.todays-deal{
+	width: 100%;
+	height: 432px;
+}
+
+.italian-salads{
+	float: left;
+	width: 605px;
+	height: 432px;
+	position: relative;
+}
+.number{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 36px;
+	color:#4b4141;
+}
+.ideal{
+	font-family:"Yesteryear-Regular";
+	color:#e5e5e5;
+	font-size: 75px;
+	margin: 80px 0 0 150px;
+}
+.italian-salads h3{
+	font-size: 36px;
+	color:#4b4141;
+	text-transform: uppercase;
+	margin: -25px 0 0 150px;
+	position: relative;
+}
+.italian-salads h3::before{
+	content:"";
+	background: url("../img/Rectangle 7.png") no-repeat;
+    width: 97px;
+	height: 1px;
+    position: absolute;
+	left: -120px;
+	top:20px;
+}
+.text-salads{
+	width: 340px;
+	font-size: 16px;
+	margin: 30px 0 0 150px;
+}
+.price-salads{
+	font-size: 24px;
+	color:#fdb902;
+	margin: 40px 0 0 150px;
+}
+.book{
+	width: 100px;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin: 25px 0 0 150px;
+	position: relative;
+}
+.book::after{
+	content:"";
+	background: url("../img/arrow.png") no-repeat;
+    width: 35px;
+	height: 7px;
+    position: absolute;
+	right:-30px;
+	top:3px;
+}
+.salads-img{
+	float: left;
+	width: 530px;
+	height: 432px;
+	background-image: url(../img/your-image-here.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.great-meal{
+	width: 100%;
+	height: 432px;
+	margin:140px 0 0 0; 
+	position: relative;
+}
+.great-img{
+	float: left;
+	width: 530px;
+	height: 432px;
+	background-image: url(../img/place-your-image.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.great{
+	float: left;
+	width: 605px;
+	height: 432px;
+	position: relative;
+}
+.great-number{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 36px;
+	color:#4b4141;
+}
+.great h3{
+	font-size: 36px;
+	color:#4b4141;
+	text-transform: uppercase;
+	margin: 125px 0 0 150px;
+	position: relative;
+}
+.price-meal{
+	font-size: 24px;
+	color:#fdb902;
+	margin: 5px 0 -5px 150px;
+	text-transform: uppercase;
+}
+.viem{
+	width:105px; 
+}
+.great h3::before{
+	content:"";
+	background: url("../img/Rectangle-7-copy.png") no-repeat;
+    width: 195px;
+	height: 1px;
+    position: absolute;
+	left:-225px;
+	top:20px;
+}
+.Jordi{
+	min-width: 1200px;
+	height: 660px;
+	margin-top: -100px;
+	background: #f7f7f7;
+}
+.conteiner{
+	width: 1150px;
+	min-height: 350px;
+	margin: 0px auto;
+}
+.text-jordi{
+	width: 810px;
+	float: left;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+}
+.we-offer{
+	font-size: 54px;
+	color:#4b4141;
+	margin-top: 130px;
+	margin-bottom: 35px;
+	position: relative;
+	z-index: 1;
+}
+.we-offer:before{
+	content:"";
+	background: url("../img/logo.png") no-repeat;
+    width: 108px;
+	height: 25px;
+    position: absolute;
+	left:340px;
+	top:-52px;
+}
+.it-is-a-long{
+	width: 710px;
+	font-size: 21px;
+	margin-left: 50px;
+	color: #898989;
+	position: relative;
+	z-index: 1;
+}
+.it-is-a-long::after{
+	content:"";
+	background: url("../img/Layer-1.png") no-repeat;
+    width: 438px;
+	height: 759px;
+    position: absolute;
+	left:710px;
+	top:-385px;
+}
+.cruz{
+	margin-top: 72px;
+	margin-bottom: 160px;
+	text-transform: uppercase;
+	font-size: 25px;
+	color:#4b4141;
+	position: relative;
+	z-index: 1;
+}
+.cruz::before{
+	content:"";
+	background: url("../img/Shape-5-copy.png") no-repeat;
+    width: 52px;
+	height: 2px;
+    position: absolute;
+	left:270px;
+	top:12px;
+}
+.cruz::after{
+	content:"";
+	background: url("../img/Shape-5-copy.png") no-repeat;
+    width: 52px;
+	height: 2px;
+    position: absolute;
+	right:270px;
+	top:12px;
+}
+.story{
+	width: 1000px;
+	position: absolute;
+	top:120px;
+	left: -100px;
+	z-index: 0;
+	font-size: 294px;
+	font-family:"Yesteryear-Regular";
+	opacity: 0.05;
+}
+.podp{
+	position: relative;
+}
+.podp::after{
+	content:"";
+	background: url("../img/Jordi-Cruz.png") no-repeat;
+    width: 162px;
+	height: 56px;
+    position: absolute;
+	right:320px;
+	top:-142px;
+}
